@@ -53,7 +53,7 @@ u2: mov ah, 0ch    ; put pixel
 u3: mov ah, 0ch    ; put pixel
     int 10h
     
-    dec dx
+    dec dx   ;just making commits
     cmp dx, 20
     ja u3 
     
